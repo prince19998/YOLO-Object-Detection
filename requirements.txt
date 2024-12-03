@@ -1,0 +1,6 @@
+python==3.12
+ipykernel
+opencv-python
+ultralytics
+datetime
+mysql-connector-python
