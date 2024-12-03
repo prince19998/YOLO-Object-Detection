@@ -30,10 +30,10 @@ os.makedirs(save_dir, exist_ok=True)
 # Connect to MySQL database
 db = mysql.connector.connect(
     host="localhost",
-    user="root",       # Replace with your MySQL username
-    password="6386664148",   # Replace with your MySQL password
+    user="Your_Users",       # Replace with your MySQL username
+    password="Your_Password",   # Replace with your MySQL password
     database="yolo_detection",  # Ensure the database exists
-    port="3306"
+    port="Your_Port_No."
 )
 cursor = db.cursor()
 
